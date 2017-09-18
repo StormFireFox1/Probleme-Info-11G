@@ -1,0 +1,2 @@
+NU incercati sa executati fisierele din acest director.
+Daca de altfel va hotarati sa o faceti, bafta la a va readuce calculatorul la o stare de functionare.
