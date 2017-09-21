@@ -29,16 +29,15 @@ int diofantic(int n, int s[], int a, int b, int c)
 {
     sort(s + 1, s + n + 1);
     int i, expr, rad, k = 0;
-    for(i = 1; i <= n && c - a * s[i] * s[i] >= 0; i++)
+    for(i = 1; i <= n && (expr = c - a * s[i] * s[i]) >= 0; i++)
     {
-		expr = c - a * s[i] * s[i];
 		if(expr % b == 0)
 		{
 			expr /= b;
 			rad = sqrt(expr);
 			if(rad * rad == expr)
 			{
-				if(cautbin(s, n, rad))
+				if(rad != s[i] && cautbin(s, n, rad))
 				{
 					k++;
 				}
@@ -52,16 +51,15 @@ int diofantic(int n, int s[], int a, int b, int c)
 	}
 	else
 	{
-		for(i = 1; i <= n && c - b * s[i] * s[i] >= 0; i++)
+		for(i = 1; i <= n && (expr = c - b * s[i] * s[i]) >= 0; i++)
 		{
-			expr = c - b * s[i] * s[i];
 			if(expr % a == 0)
 			{
 				expr /= a;
 				rad = sqrt(expr);
 				if(rad * rad == expr)
 				{
-					if(cautbin(s, n, rad))
+					if(rad != s[i] && cautbin(s, n, rad))
 					{
 						k++;
 					}
