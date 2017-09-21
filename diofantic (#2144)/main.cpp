@@ -52,12 +52,12 @@ int diofantic(int n, int s[], int a, int b, int c)
 	}
 	else
 	{
-		for(i = 1; i <= n && c - a * s[i] * s[i] >= 0; i++)
+		for(i = 1; i <= n && c - b * s[i] * s[i] >= 0; i++)
 		{
 			expr = c - b * s[i] * s[i];
-			if(expr % b == 0)
+			if(expr % a == 0)
 			{
-				expr /= b;
+				expr /= a;
 				rad = sqrt(expr);
 				if(rad * rad == expr)
 				{
