@@ -1,27 +1,28 @@
 #include <iostream>
+#include <fstream>
 #include <cstring>
-
-using namespace std;
 
 int main()
 {
- 	char c[1001];
-    int ok = 1, ok2 = 0;
-    cin.getline(c, 1001);
-    for(int i = 0; i < strlen(c); i++)
+    char c[101];
+    int flag = 1;
+    int _count = 0;
+    std::cin >> c;
+    for (int i = 0 ; i < strlen(c) ; ++i)
     {
-     	if(strchr("aeou", c[i])) ok = 0;
-        if(strchr("bcdfghjklmnpqrstvwxyz", c[i])) ok2 = 1;
+        if (c[i] == 'a' || c[i] == 'e' || c[i] == 'o' || c[i] == 'u')
+        {
+            flag = 0;
+            break;
+        }
+        if (c[i] != 'a' && c[i] != 'e' && c[i] != 'i' && c[i] != 'o' && c[i] != 'u')
+            _count++;
     }
-    if(ok2 == 0)
-        ok = 0;
-    if(ok == 0)
+    if (flag && _count)
     {
-     	cout << "NU";
+        std::cout << "DA";
     }
     else
-    {
-     	cout << "DA";
-    }
+        std::cout << "NU";
     return 0;
 }
