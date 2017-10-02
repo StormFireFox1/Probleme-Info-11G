@@ -1,34 +1,36 @@
-#include <fstream>
- 
+#include<bits/stdc++.h>
+
 using namespace std;
- 
 ifstream fin("subsecv.in");
 ofstream fout("subsecv.out");
- 
-const int inf = 10001;
- 
+int n,m,i,j,s[10001],k,mn=2000000000,a,b;
+//vector< pair <int,int> > vect;
 int main()
 {
-    int n, i, j, v[inf];
-    fin >> n;
-    for(i = 0; i < n; i++)
+    fin>>n;
+    for(i=1;i<=n;i++)
     {
-		fin >> v[i];
+        fin>>m;
+        if(i==1)s[i]=m%n;
+        else s[i]=(m+s[i-1])%n;
     }
-    for(i = 0; i < n; i++)
+    for(i=1;i<=n;i++)
     {
-     	for(j = i; j < n; j++)
+        j=i+1;
+        if(s[i]==0)
         {
-         	long long sum = 0;
-            for(int x = i; x <= j; x++)
-            {
-                sum += v[x];
-            }
-            if(sum % n == 0)
-            {
-             	fout << i + 1 << ' ' << j + 1;
-                return 0;
-            }
+            fout<<1<<" "<<i;
+            return 0;
+        }
+    }
+    for(i=1;i<=n;i++)
+    {
+        j=i+1;
+        while(s[j]!=s[i]&&j<=n)j++;
+        if(s[j]==s[i])
+        {
+            fout<<i+1<<" "<<j;
+            return 0;
         }
     }
     return 0;
