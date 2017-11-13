@@ -12,4 +12,4 @@ O simpla linie de cod rulata in terminal este necesar.
 $ wget https://github.com/StormFireFox1/Probleme-Info-11G/archive/master.zip && unzip master.zip && cd Probleme-Info-11G-master && chmod +x getproblems && ./getproblems
 ```
 
-Aceasta va cere numele si altele si va pune sursele pe Desktop. Acest script ***necesita conexiune la Internet!*** Fara Internet mai necesita niste editare
+Aceasta va cere numele si altele si va pune sursele pe Desktop. Acest script ***necesita conexiune la Internet!*** Fara Internet mai necesita niste editare.
