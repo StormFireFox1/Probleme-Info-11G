@@ -26,10 +26,10 @@ mkdir "${FOLDER_PROB1_NOID}"
 mkdir "${FOLDER_PROB2_NOID}"
 
 cp "$ORIGINAL_DIR/${FOLDER_PROB1}/main.cpp" "$HOME/Desktop/$STUDENT_SURNAME $STUDENT_NAME/${FOLDER_PROB1_NOID}/main.cpp"
-cp "$ORIGINAL_DIR/${FOLDER_PROB2}/main.cpp" "$HOME/Desktop/$STUDENT_SURNAME $STUDENT_NAME/${FOLDER_PROB2}_NOID/main.cpp"
+cp "$ORIGINAL_DIR/${FOLDER_PROB2}/main.cpp" "$HOME/Desktop/$STUDENT_SURNAME $STUDENT_NAME/${FOLDER_PROB2_NOID}/main.cpp"
 
 echo "Cleaning up..."
-rm "$ORIGINAL_DIR/master.zip"
+rm "$ORIGINAL_DIR/../master.zip"
 
 echo "Gata! Misto test, nu?"
 sleep 2
