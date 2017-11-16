@@ -1,5 +1,6 @@
 #!/bin/bash
 
+clear
 echo "Salut! Zii numele tau (nume prenume, ex. Gardus Matei): "
 read -r STUDENT_SURNAME STUDENT_NAME
 echo "Scrie repede numele celor doua probleme EXACT separate cu spatiu:"
@@ -24,5 +25,9 @@ mkdir "${FOLDER_PROB2}"
 cp "$ORIGINAL_DIR/${FOLDER_PROB1}/main.cpp" "$HOME/Desktop/$STUDENT_SURNAME $STUDENT_NAME/${FOLDER_PROB1}/main.cpp"
 cp "$ORIGINAL_DIR/${FOLDER_PROB2}/main.cpp" "$HOME/Desktop/$STUDENT_SURNAME $STUDENT_NAME/${FOLDER_PROB2}/main.cpp"
 
+echo "Cleaning up..."
+rm -r "$ORIGINAL_DIR/master.zip"
+
 echo "Gata! Misto test, nu?"
 sleep 2
+clear
