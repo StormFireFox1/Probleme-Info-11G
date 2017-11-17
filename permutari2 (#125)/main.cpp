@@ -1,4 +1,4 @@
-/* Permutari1
+/* Permutari2
    Problema clasica de backtracking. In loc sa avem numere de la 1 la n, vom avea exact ca la problema permutari, numai ca
    vom avea sortate elementele inserate.
 */
