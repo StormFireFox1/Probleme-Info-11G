@@ -1,50 +1,55 @@
-#include <iostream>
+/* Permutari2
+   Problema clasica de backtracking. In loc sa avem numere de la 1 la n, vom avea exact ca la problema permutari, numai ca
+   vom avea sortate elementele inserate.
+*/
+
 #include <fstream>
 #include <algorithm>
-  
-  using namespace std;
-  
+ 
+using namespace std;
+ 
 ifstream fin("permutari2.in");
-  ofstream fout("permutari2.out");
-  const int N=20;
-  int sol[N], n, v[101];
-  bool c[N];
-
-   void tipar()
-   {
-     for(int i=1; i<=n; i++)
-     {
-       fout<<sol[i]<<' ';
-     }
-     fout<<'\n';
-   }
-   
-      void bkt(int p)
-     {
-        if(p-1==n)
-            {
-               tipar();
-                 return;
-                }
-          for(int i=1; i<=n; i++)
-                 {
-                    if(!c[i])
-                    {
-                      sol[p]=v[i];
-                      c[i]=true;
-                      bkt(p+1);
-                      c[i]=false;  
-                       }
-                    }
-
-      }
-      
-      int main()
-      {
-        fin>>n;
-        for(int i=1; i<=n; i++)
-          fin>>v[i];
-          sort(v+1, v+n+1);
-        bkt(1);
-        return 0;
-      }
+ofstream fout("permutari2.out");
+ 
+int n, st[20], v[20];
+ 
+void afisare()
+{
+    for(int i = 1; i <= n; i++)
+	fout << st[i] << " ";
+    fout << "\n";
+}
+ 
+int valid(int k)
+{
+    for(int i = 1; i < k; i++)
+        if(st[i] == st[k])
+		return 0;
+    return 1;
+}
+ 
+void backtrack(int k)
+{
+    for(int i = 1; i <= n; i++)
+    {
+        st[k] = v[i];
+        if(valid(k))
+        {
+            if(k == n)
+                afisare();
+            else
+                backtrack(k + 1);
+        }
+    }
+}
+ 
+int main()
+{
+    int i;
+    fin >> n;
+    for(i = 1; i <= n; i++)
+	fin >> v[i];
+    sort(v + 1, v + n + 1);
+    backtrack(1);
+    return 0;
+}

@@ -1,48 +1,56 @@
-#include <iostream>
+/* combinari
+   Problema clasica de backtracking. Se verifica daca cumva a fost deja pus elementul in stiva, contrazicand ce ar fi
+   o combinare. In rest, la fel.
+*/
+
 #include <fstream>
+ 
 using namespace std;
+ 
 ifstream fin("combinari.in");
 ofstream fout("combinari.out");
-
-const int N=20;
-int sol[N], n, k;
-
- void tipar()
- {
-   int i;
-   for(i=1; i<=k; i++)
-   {
-     fout<<sol[i]<<' ';
-   }
-   fout<<'\n';
- }
-
- bool valid(int k)
- {
-   int i;
-   for(i=1; i<=k; i++)
+ 
+int n, st[20], x;
+ 
+void afisare()
+{
+    for(int i = 1; i <= x; i++)
     {
-      if(sol[k]>sol[k-1]) return true;
+         fout << st[i] << ' ';
     }
-    return false;
- }
-
- void bkt(int p)
-     {
-        if(p-k==1)
-            {
-               tipar();
-                 return;
-                }
-          for(int i=1; i<=n; i++)
-          {
-            sol[p]=i;
-            if(valid(p)) bkt(p+1);
-          }
-     }
-      
+    fout << '\n';
+}
+ 
+int valid(int k)
+{
+    for(int i = 1; i < k; i++)
+    {
+         if(st[i] >= st[k])
+         {
+	      return 0;
+	 }
+    }
+    return 1;
+}
+ 
+void backtrack(int k)
+{
+    for(int i = 1; i <= n - x + k; i++)
+    {
+        st[k] = i;
+        if(valid(k))
+        {
+            if(k == x)
+                afisare();
+            else
+                backtrack(k + 1);
+        }
+    }
+}
+ 
 int main()
 {
-  fin>>n>>k;
-  bkt(1);
+    fin >> n >> x;
+    backtrack(1);
+    return 0;
 }

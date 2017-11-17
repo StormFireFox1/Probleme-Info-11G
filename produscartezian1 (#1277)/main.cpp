@@ -1,40 +1,41 @@
+/* produscartezian1
+   Problema clasica de backtracking. O diferenta foarte faina este ca nu este necesara nicio verificare, deci e foarte usor.
+*/
+
 #include <iostream>
 #include <fstream>
+ 
 using namespace std;
-
+ 
 ifstream fin("produscartezian1.in");
 ofstream fout("produscartezian1.out");
-
-const int N=20;
-int sol[N], n, k;
-
- void tipar()
- {
-   int i;
-   for(i=1; i<=k; i++)
-   {
-     fout<<sol[i]<<' ';
-   }
-   fout<<'\n';
- }
-
- void bkt(int p)
-     {
-        
-          for(int i=1; i<=n; i++)
-          {
-              sol[p]=i;
-            if(p==k)
-            {
-              tipar();
-            }
-            
-             else  bkt(p+1);
-          }
-     }
-      
+ 
+int n, st[20], v[1003], m, c;
+ 
+void afisare()
+{
+    for(int i = 1; i <= m; i++)
+    {
+         fout << st[i] << ' ';
+    }
+    fout << '\n';
+}
+ 
+void backtrack(int k)
+{
+    for(int i = 1; i <= n; i++)
+    {
+        st[k] = i;
+        if(k == m)
+            afisare();
+        else
+            backtrack(k + 1);
+    }
+}
+ 
 int main()
 {
-  fin>>n>>k;
-  bkt(1);
+    fin >> n >> m;
+    backtrack(1);
+    return 0;
 }
