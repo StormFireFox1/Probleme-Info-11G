@@ -4,7 +4,9 @@ Toate rezolvarile problemelor (100 de puncte) vor ajunge in master.
 
 # Instalare script testare
 
-O simpla linie de cod rulata in terminal este necesar.
+O simpla linie de cod rulata in terminal este necesar, fie pentru Linux sau Windows.
+
+## Linux
 
 1. Deschide Terminal (Apasa pe tastatura CTRL + SHIFT + T)
 2. Insereaza urmatoarea linie de cod cu copy-paste si da enter:
@@ -12,4 +14,12 @@ O simpla linie de cod rulata in terminal este necesar.
 $ wget https://github.com/StormFireFox1/Probleme-Info-11G/archive/master.zip && unzip master.zip && cd Probleme-Info-11G-master && chmod +x getproblems && ./getproblems
 ```
 
-Aceasta va cere numele si altele si va pune sursele pe Desktop. Acest script ***necesita conexiune la Internet!*** Fara Internet mai necesita niste editare.
+## Windows
+1. Deschide Command Prompt (Windows + R, apoi scrieti "cmd" si apasati enter)
+2. Insereaza urmatoarea linie de cod cu copy-paste si da enter:
+
+```bat
+powershell -c "(new-object System.Net.WebClient).DownloadFile('https://github.com/StormFireFox1/Probleme-Info-11G/archive/master.zip', 'master.zip'); (new-object System.Net.WebClient).DownloadFile('https://pastebin.com/raw/2XKERR8f', 'unzip.vbs')" && cscript //B unzip.vbs master.zip && cd Probleme-Info-11G-master
+```
+
+Aceste scripturi va cer numele si altele si vor pune sursele pe Desktop. Aceste scripturi ***necesita conexiune la Internet!*** Fara Internet mai necesita niste editare.
