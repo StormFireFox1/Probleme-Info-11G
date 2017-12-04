@@ -22,4 +22,6 @@ $ wget https://github.com/StormFireFox1/Probleme-Info-11G/archive/master.zip && 
 powershell -c "(new-object System.Net.WebClient).DownloadFile('https://github.com/StormFireFox1/Probleme-Info-11G/archive/master.zip', 'master.zip'); (new-object System.Net.WebClient).DownloadFile('https://pastebin.com/raw/2XKERR8f', 'unzip.vbs')" && cscript //B unzip.vbs master.zip && cd Probleme-Info-11G-master
 ```
 
+***[INDISPONIBIL MOMENTAN, NU FOLOSI COMANDA]***
+
 Aceste scripturi va cer numele si altele si vor pune sursele pe Desktop. Aceste scripturi ***necesita conexiune la Internet!*** Fara Internet mai necesita niste editare.
