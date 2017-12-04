@@ -1,18 +1,21 @@
 dist: trusty
 sudo: required
+
 language:
   - cpp
+
 compiler:
   - gcc
   - clang
+
 script:
-  # Check versions of gcc, g++ and cmake
-  - gcc -v && g++ -v && cmake --version
   # Run build commands
   - mkdir build
   - cd build
   - cmake ..
   - make
+
+# Disable annoying emails
 
 notifications:
   email: false
