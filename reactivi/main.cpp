@@ -7,7 +7,6 @@
 */
 
 #include <fstream>
-#include "stdafx.h"
 #include <vector> //necesar pentru vector <pair <int, int> >
 #include <algorithm> //pentru sort
 

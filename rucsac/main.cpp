@@ -5,7 +5,7 @@ ne trebuie cat mai multa valoare din cat mai putina greutate.
 Sursa initiala facuta de @alexmihax
 */
 
-#include "stdafx.h"
+
 #include <iostream>
 
 using namespace std;
