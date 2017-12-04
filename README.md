@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/StormFireFox1/Probleme-Info-11G.svg?branch=master)](https://travis-ci.org/StormFireFox1/Probleme-Info-11G)
+
 # Probleme-Info-11G
 In acest repozitoriu vei gasi problemele la info.
 Toate rezolvarile problemelor (100 de puncte) vor ajunge in master.
@@ -21,5 +23,7 @@ $ wget https://github.com/StormFireFox1/Probleme-Info-11G/archive/master.zip && 
 ```bat
 powershell -c "(new-object System.Net.WebClient).DownloadFile('https://github.com/StormFireFox1/Probleme-Info-11G/archive/master.zip', 'master.zip'); (new-object System.Net.WebClient).DownloadFile('https://pastebin.com/raw/2XKERR8f', 'unzip.vbs')" && cscript //B unzip.vbs master.zip && cd Probleme-Info-11G-master
 ```
+
+***[INDISPONIBIL MOMENTAN, NU FOLOSI COMANDA]***
 
 Aceste scripturi va cer numele si altele si vor pune sursele pe Desktop. Aceste scripturi ***necesita conexiune la Internet!*** Fara Internet mai necesita niste editare.
