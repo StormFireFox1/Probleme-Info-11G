@@ -8,25 +8,23 @@ read -r ID_PROB1 ID_PROB2
 
 ORIGINAL_DIR=$(pwd)
 
-FOLDER_PROB1=$(find . -type d -name "$ID_PROB1 *")
-FOLDER_PROB2=$(find . -type d -name "$ID_PROB2 *")
+FOLDER_PROB1=$(find . -type d -name "$ID_PROB1")
+FOLDER_PROB2=$(find . -type d -name "$ID_PROB2")
+
 FOLDER_PROB1=${FOLDER_PROB1:2}
 FOLDER_PROB2=${FOLDER_PROB2:2}
 
-FOLDER_PROB1_NOID=$(sed 's/\s.*$//' <<< "$FOLDER_PROB1")
-FOLDER_PROB2_NOID=$(sed 's/\s.*$//' <<< "$FOLDER_PROB2")
-
-echo "Prima problema gasita: $FOLDER_PROB1_NOID"
-echo "A doua problema gasita: $FOLDER_PROB2_NOID"
+echo "Prima problema gasita: $FOLDER_PROB1"
+echo "A doua problema gasita: $FOLDER_PROB2"
 
 cd ~/Desktop
 mkdir "$STUDENT_SURNAME $STUDENT_NAME"
 cd "$HOME/Desktop/$STUDENT_SURNAME $STUDENT_NAME"
-mkdir "${FOLDER_PROB1_NOID}"
-mkdir "${FOLDER_PROB2_NOID}"
+mkdir "${FOLDER_PROB1}"
+mkdir "${FOLDER_PROB2}"
 
-cp "$ORIGINAL_DIR/${FOLDER_PROB1}/main.cpp" "$HOME/Desktop/$STUDENT_SURNAME $STUDENT_NAME/${FOLDER_PROB1_NOID}/main.cpp"
-cp "$ORIGINAL_DIR/${FOLDER_PROB2}/main.cpp" "$HOME/Desktop/$STUDENT_SURNAME $STUDENT_NAME/${FOLDER_PROB2_NOID}/main.cpp"
+cp "$ORIGINAL_DIR/${FOLDER_PROB1}/main.cpp" "$HOME/Desktop/$STUDENT_SURNAME $STUDENT_NAME/${FOLDER_PROB1}/main.cpp"
+cp "$ORIGINAL_DIR/${FOLDER_PROB2}/main.cpp" "$HOME/Desktop/$STUDENT_SURNAME $STUDENT_NAME/${FOLDER_PROB2}/main.cpp"
 
 echo "Cleaning up..."
 rm "$ORIGINAL_DIR/../master.zip"
