@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+
+
+#include <fstream>
 
 using namespace std;
 ifstream fin("taxe.in");
