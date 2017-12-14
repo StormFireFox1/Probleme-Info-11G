@@ -6,6 +6,7 @@ project(Probleme-Info-11G)
 
 add_subdirectory("anagrame1")
 add_subdirectory("aranjamente")
+add_subdirectory("bete")
 add_subdirectory("bila")
 add_subdirectory("caractere")
 add_subdirectory("cerc3")
