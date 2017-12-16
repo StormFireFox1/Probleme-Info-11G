@@ -18,7 +18,12 @@
  * N = nk*MOD^(k-1) + n(k-1)*MOD^(k-2) + ... + n0
  * M = mk*MOD^(k-1) + m(k-1)*MOD^(k-2) + ... + n0
  *
- * 
+ *
  *
  */
+
+int main()
+{
+    return 0;
+}
 
