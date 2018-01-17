@@ -4,6 +4,8 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 
 project(Probleme-Info-11G)
 
+add_subdirectory("adiacenta")
+add_subdirectory("adiacenta1")
 add_subdirectory("anagrame1")
 add_subdirectory("aranjamente")
 add_subdirectory("bete")
