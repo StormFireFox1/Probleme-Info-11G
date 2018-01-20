@@ -1,0 +1,118 @@
+P(x) = x(x-1)(x-2)*...*(x-(n-1))
+
+p(x) = x^n * s(n,n) + x^n-1 * s(n,n-1) + ... + x^0 * s(n,0)
+
+s(n,k) - Stirling de speta I
+
+RELATII DE RECURENTA PT STIRLING SP 1
+s(n,0) = 0
+s(n,n) = 1
+s(n + 1, k) = s(n,k-1) - n*s(n,k)
+
+
+ex:
+A={a,b,c,d}
+k = 3
+{a},{b},{c,d}
+{a},{c},{b,d}
+{a},{d},{b,c}
+{b},{c},{a,d}
+{b},{d},{a,c}
+{c},{d},{a,b}
+
+RELATII DE RECURENTA PT STIRLING SP 2
+S(n,1) = S(n,n) = 1
+S(n,k) = S(n,k-1)+k*S(n,k)
+
+S(n,k) - Stirling de speta II
+
+Obs: nr fct surjective(n,m) = m!*S(n,m)
+
+S(n,1)+S(n,2)+S(n,3)+...+S(n,n) = B(n) (numarul lui Bell)
+
+!Indicatorul lui Euler
+fi(n) - numarul de numere prime cu n mai mici decat n, n natural =/= 0
+daca p = prim	-> fi(p) = p - 1
+		-> fi(p^k) = p^k(1 - 1/p)
+fi(n * m) = fi(n) * fi(m)
+
+n = p1^a1*p2^a2*...*pk^ak, pi - numere prime
+fi(n)=n(1-1/p1)*...*(1-1/pk)
+
+PB:se da s, se cere n a.i. suma cifrelor lui n sa fie s si n sa fie divizibil cu s.
+
+
+Teorema 1:
+p = prim
+Exponentul lui p in descompunerea lui n! = Suma cu i = pozitiv de [n/p^i] (parte intreaga)
+
+Teorema 2:
+m = p1^a1 * p2^a2 * ... * pk^ak
+Exponentul lui m in descompunerea lui n! = min(i = 1 -> k) de Suma cu j = 1 de [n/(pi^j*ai)]
+
+ex:
+m = 108 = 2^2 * 3^3
+n = 253
+
+p1 = 2 a1 = 2
+p2 = 3 a2 = 3
+
+pt i = 1 :
+[253/(2^1 * 2)] + [253/(2^2 * 2)] + [253/(2^3 * 2)] + [253/(2^4 * 2)] + [253/(2^4 * 2)] + [253/(2^6 * 2)] + ... (=0) = 120
+pt i = 2 :
+....=41
+
+Se alege minimul (120, 41)
+
+Pb: p - prim : (p^n)!
+
+
+
+DIVIDE ET IMPERA
+
+1. cautare binara:
+D&I(P, n, S)
+
+
+if (n < n0) rezolvare prin metode clasice
+else
+{
+  imparte P in P1,n1;P2,n2;...;Pk,nk
+  D&I(P1, n1, S1)
+  .
+  .
+  .
+  D&I(Pk, nk, Sk)
+  combina S1, S2, S3, ..., Sk
+}
+
+
+2. problema turnurilor din Hanoi
+pt n discuri, avem 2^n-1 mutari minime
+
+3. Merge-sort
+4. min/max vector
+5. quicksort
+
+Pb comis voiajorului
+
+
+Implementare quicksort!! 
+6. problema placii cu gauri (folosind D&I)
+
+impl:
+if (gasit o gaura)
+{
+//taieri verticale
+ reapelez(sus);
+ reapelez(jos);
+//taieri orizontale
+ reapelez(stanga);
+ reapelez(dreapta);
+}
+
+T(n) = 9T(n/3) + n 
+T(n) = 3T(n/4) + nlogn
+
+Determinati complexitatea metodei merge sort folosind teorema Master
+Determinati complexitatea catarii binare folosind teorema Master
