@@ -1,0 +1,87 @@
+
+D & I (P,n, S)
+{ 
+if(n<n0) rezolva prin metode clasice
+else 
+	Imparte P in
+	P1,n1; P2,n2; P3, n3;.. Pk,nk;
+D&I(P1 ,n1 ,S1)
+.
+.
+.
+D&I(Pk, nk, Sk)
+Combina S1, S2, ... Sk;
+}
+                                                                    1.Cautare binara
+                                                                    2.Min/Max vector
+                                                                  3.Turnurile din Hanoi
+#include <iostream>
+
+using namespace std;
+
+
+//Write a recursive algorithm to solve the towers of Hanoi problem.
+//move disc 1 A to c ACB
+//move disc 2 A to b ABC
+//move disc 1 C to b CBA
+//move disc 3 A to c ACB
+//move disc 1 B to a BAC
+//move disc 2 B to c BCA
+//move disc 1 A to c ACB
+
+
+int moves(0);
+void Hanoi(int m, char a, char b, char c);
+
+void Hanoi(int m, char a, char b, char c){
+  moves++;
+  if(m == 1){
+    cout << "Move disc " << m << " from " << a << " to " << c << endl;
+  }else{  
+    Hanoi(m-1, a,c,b);
+    cout << "Move disc " << m << " from " << a << " to " << c << endl;
+    Hanoi(m-1,b,a,c);
+  }
+}
+
+int main(){
+
+  int discs;
+  cout << "Enter the number of discs: " << endl;
+  cin >> discs;
+  Hanoi(discs, 'A', 'B', 'C');
+  cout << "It took " << moves << " moves. " << endl;
+
+  system("pause");
+}
+
+2^n-1 numar de pasi
+
+Turnurile din Hanoi cu 4 Tije TEMA
+
+                                                                          4.Mergesort
+								         5.Quicksort
+
+Dati-mi un sir de numere : "3".
+
+quickSort(s,d)
+if(s<d)
+{
+poz(s,d,&k);
+qs(s,k-1);
+qs(k+1,d);
+}
+TEMA: Implementare Quicksort
+
+Complexitate
+6. Placa cu gaure
+Pavare, problema interesanta.
+Patrat cu latura 2^n, apare o gaura, primim coordonatele.
+Pavele de forma:
+ __
+|_ |
+ |_| 
+7. Inmultirea numerelor Mari
+8. PLiarea vectorului
+
+Determinati complexitatea metodei Merge si complexitatea cautarii binare, folosing teorema Master.
