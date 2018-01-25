@@ -7,7 +7,7 @@ ofstream fout("listavecini.out");
 
 int a[102][102], n;
 
-void citire()
+void citireMatrice()
 {
 	int i, j;
 	fin >> n;
@@ -18,7 +18,7 @@ void citire()
 	}
 }
 
-int nrvec(int k)
+int nrVecini(int k)
 {
 	int s = 0;
 	for (int i = 1; i <= n; ++i)
@@ -30,10 +30,10 @@ int nrvec(int k)
 
 int main()
 {
-	citire();
+	citireMatrice();
 	for (int i = 1; i <= n; ++i)
 	{
-		fout << nrvec(i) << " ";
+		fout << nrVecini(i) << " ";
 		for (int j = 1; j <= n; ++j)
 		{
 			if (a[i][j] == 1)
