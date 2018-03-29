@@ -6,6 +6,7 @@ project(Probleme-Info-11G)
 
 add_subdirectory("adiacenta")
 add_subdirectory("adiacenta1")
+add_subdirectory("afiscircuite")
 add_subdirectory("anagrame1")
 add_subdirectory("aranjamente")
 add_subdirectory("bete")
