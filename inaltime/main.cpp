@@ -20,17 +20,20 @@ int nivel(int nod)
 
 int main()
 {
-	int n, x, k;
+	int n;
 	fin >> n;
 	for (int i = 1; i <= n; ++i)
 	{
-		fin >> x;
-		t[i] = x;
+		fin >> t[i];
 	}
-	fin >> k;
-	for (int i = 1; i <= k; ++i) {
-		fin >> x;
-		maxim = max(nivel(x), maxim);
+	int niv;
+	for (int i = 1; i <= n; ++i)
+	{
+		niv = nivel(i);
+		if (maxim < niv)
+		{
+			maxim = niv;
+		}
 	}
 	fout << maxim;
 	return 0;
