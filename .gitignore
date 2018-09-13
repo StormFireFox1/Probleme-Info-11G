@@ -42,3 +42,6 @@ gen### C++ template
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+### CMake ###
+cmake-build-cache/
