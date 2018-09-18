@@ -1,0 +1,1021 @@
+[33mcommit 9a0b4ac1396da8312cbfc82988c72936d48156bc[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: alexghergh <gherghescu_alex1@yahoo.ro>
+Date:   Tue Sep 18 09:56:58 2018 +0300
+
+    Reorganizare structura directoare
+
+[33mcommit 4c98c2dbe7d28215d2dcb9d1ac54a4fee2628277[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Tue Sep 18 07:45:59 2018 +0300
+
+    Adaugare nr_pal
+
+[33mcommit 614c55331a2e6ed4b65ea865512ba4ecbc3bf963[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Mon Sep 17 17:18:53 2018 +0300
+
+    Adaugare lectie relatii la baze de date
+
+[33mcommit 1cb838410507c9ddd7f5f8adb293cb5fc9558bc8[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Thu Sep 13 15:30:44 2018 +0300
+
+    Add CMake cache to .gitignore
+
+[33mcommit 0d8db160df353710ad28cd06ccb30bd927b6cfae[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Thu Sep 13 09:23:24 2018 +0300
+
+    Adaugare lectie baze de date
+
+[33mcommit d4e2d4ca357fcbc4d3bfb7367548f3f0c553d07b[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Thu Sep 13 09:22:45 2018 +0300
+
+    Adaugare structura si exercitiu "atestat"
+
+[33mcommit a69eed6b012d8054d352f63a1dd04c2f121c6a70[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Thu Sep 13 09:22:18 2018 +0300
+
+    Update .gitignore
+
+[33mcommit a399212dea99ef1906c626f004ad9dcd12cba13b[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Thu Jun 14 14:24:48 2018 +0300
+
+    Adaugare script PowerShell similar cu ./getproblems
+
+[33mcommit ec2c99e2186e5c863294c2f7f3cd2ff262be99c0[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Thu May 24 07:54:59 2018 +0300
+
+    Setare standard C++ la C++14
+
+[33mcommit 1eaa6f855d05d2bb8466e887f35d8215c0217089[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Thu May 24 07:53:03 2018 +0300
+
+    Eliminare file upload
+
+[33mcommit 82a5e004ab327b102cb538834086e26dd6a39dd5[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Thu May 24 07:51:41 2018 +0300
+
+    Adaugare probleme arbori
+    
+    - bifrunze
+    - bifrunze1
+    - binefrunze1
+    - countprimsub
+    - countsub
+    - difsub
+    - inordine
+    - inordine1
+    - knivel1
+    - nivelebin
+    - nrnod
+    - postordine
+    - postordine1
+    - subarbore1
+    - subarbore2
+    - subarbori
+    - sumsubmax
+
+[33mcommit 3435a32401a6adba57c3f76b59a7c16ff49d6c7a[m
+Author: Leti <32059135+darksiders1719@users.noreply.github.com>
+Date:   Wed May 23 23:44:05 2018 +0300
+
+    Add files via upload
+    
+    Zip cu aproape toate probleme din temele de la arbori.
+    N-am mai facut foldere ca nu am mai avut timp (23:43...)
+
+[33mcommit 3ef1ed56bfc70e26d5120b5684ef29dc32db187f[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Thu Apr 26 07:40:16 2018 +0300
+
+    Adaugare lectie Arbori si probleme arbori
+    
+    - afisarefii
+    - arbore
+    - knivel
+    - preordine
+    - subarbore
+    - subarborenumarare
+
+[33mcommit 31ef41f81ee0c5242774b8397af7a5f698e4711f[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Thu Apr 19 16:43:20 2018 +0300
+
+    Rectificare problema nrfii
+
+[33mcommit bf3d40dc196132f0467ecc9a0b1e26eacbb2b729[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Thu Apr 19 12:32:27 2018 +0300
+
+    Rectificare problema inaltime
+
+[33mcommit 55ab6f8fe3bf862e2915feb253ab0ab86026076f[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Thu Apr 19 12:21:12 2018 +0300
+
+    Adaugare problema inaltime
+
+[33mcommit 39de3a3bac99d86a4b1f969a9b46fac03229a4d1[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Thu Apr 19 11:52:55 2018 +0300
+
+    Adaugare problema nivele
+
+[33mcommit fd1afb45bfedd24ea726392c10e86e374dfc2af1[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Thu Apr 19 11:22:32 2018 +0300
+
+    Adaugare problema frunza
+
+[33mcommit d7856e592d784fac2134daafb0655738f5ad6e5b[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Tue Apr 17 21:54:28 2018 +0300
+
+    Adaugare probleme anunt, gradintnul, mall
+
+[33mcommit 54c6b597fccf54773aec625f47b47998d0fd4008[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Thu Apr 12 11:37:14 2018 +0300
+
+    Adaugare probleme grade2, lanturi1
+
+[33mcommit 38bddb5ac3eeec9c23ecf26130c8d932c4d2a218[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Thu Mar 29 11:19:25 2018 +0300
+
+    Adaugare probleme heapuri (infoarena), afiscircuite
+
+[33mcommit 41cd1ecf22ba57121d6c0b1be285e0d5c1e572e6[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Thu Mar 15 11:38:21 2018 +0200
+
+    Adaugare probleme bipartit2, epidemie, gears
+
+[33mcommit 55c786ade58522dfc66db6cf671b36b8b7bd40ca[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Thu Mar 15 11:14:20 2018 +0200
+
+    Adaugare lectie CEX
+
+[33mcommit 8e2a5152fdaa6fc1a4df28918fa348c250516f88[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Sat Feb 24 14:09:31 2018 +0200
+
+    Adaugare lectie CEX si redenumire lectie la fisier text
+
+[33mcommit 3075d5893efb39b2cd5c3658db49421b8737b507[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Sat Feb 24 14:08:59 2018 +0200
+
+    Adaugare directoriu pentru .campion si problema chei
+
+[33mcommit 9f502bb636032426001dc4c3bb56a10ad7fd92b2[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Sat Feb 24 14:08:16 2018 +0200
+
+    Adaugare implementare STL la BFS si DFS
+
+[33mcommit 6e36549098be78c8b0f92d8c8919e3f5f337d402[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Thu Feb 22 10:54:02 2018 +0200
+
+    Adaugare componenteconexe si toate subproblemele 1, 2, 3, 4
+
+[33mcommit 00d6b4f2b9cee18cebcd4b871255771b14a9a786[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Sat Feb 17 13:04:24 2018 +0200
+
+    Adaugare lectie CEX si reorganizare a lectiilor CEX
+
+[33mcommit 987023bd5800dd6c6f3ad4b419e0b9c1d4650e51[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Thu Feb 15 12:20:04 2018 +0200
+
+    Adaugare problema Conex
+
+[33mcommit 70110582c77b7246a50a9c68497e1edab4d3cace[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Thu Feb 15 11:57:00 2018 +0200
+
+    Adaugare problema BFS
+
+[33mcommit bc222a8c301f361c3447b75ac2b2a3adc829e880[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Mon Feb 12 12:05:41 2018 +0200
+
+    Rectificare problema DFS
+
+[33mcommit ed39bf665a21b28fe05f8127f9b3434ad5823238[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Mon Feb 12 12:00:11 2018 +0200
+
+    Adaugare problema DFS
+
+[33mcommit b693e51cbd33864de431a462553dc7096797fa28[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Sat Jan 27 22:33:27 2018 +0200
+
+    Rectificare declarare fisiere matrice_div_et_imp
+
+[33mcommit e355e7c8592e685250de03595d294413caa9c0e6[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Sat Jan 27 22:28:59 2018 +0200
+
+    Adaugare exercitii Divide et Impera si algoritmi sortare
+
+[33mcommit db6a00f19fbaedac91f3ebcf6bde9cee0f5fafd3[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Thu Jan 25 11:30:57 2018 +0200
+
+    Adaugare tema 31.01.2018
+
+[33mcommit 4946434cbdfbb74c4c99d97c161756a62750171d[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Thu Jan 25 11:29:04 2018 +0200
+
+    Adaugare .gitignore
+
+[33mcommit 1244223ccdb6e06307a4f3ba647f5a93e229efdf[m
+Author: Alexmihax <32059336+Alexmihax@users.noreply.github.com>
+Date:   Sat Jan 20 12:06:59 2018 +0200
+
+    Create CEX-20.01
+
+[33mcommit 2b50c5a4d88eee1095bdc197c2a1333759554f88[m
+Author: alexghergh <32064177+alexghergh@users.noreply.github.com>
+Date:   Sat Jan 20 12:06:28 2018 +0200
+
+    Create lectie-CEX-20.1.txt
+
+[33mcommit 415eabf5f399b7cc7396caffa6c9cabae0cb3699[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Wed Jan 17 12:17:06 2018 +0200
+
+    Adaugare listavecini
+
+[33mcommit ffd8c4304f6444573e8e4e23d0b0b96b643b5451[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Wed Jan 17 11:49:42 2018 +0200
+
+    Adaugare adiacenta, adiacenta1 si lectie
+
+[33mcommit 08b673ce4e65e0c543012cabce2a71f76c6a1f63[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Sat Dec 16 11:56:23 2017 +0200
+
+    Rectificare CEX problema jap2 (nu e complet)
+    
+    Are numai teorie, din pacate. Momentan. Am pus si return 0 sa nu se supere Travis CI.
+
+[33mcommit 005f1251cfc3ba767e43f101bed6242c45b38257[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Sat Dec 16 11:48:39 2017 +0200
+
+    Adaugare CEX problema jap2
+    
+    Are numai teorie, din pacate. Momentan.
+
+[33mcommit 549bf4434c3840cdd6425fea266cd795f3161e6e[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Thu Dec 14 12:58:00 2017 +0200
+
+    Rectificare tema 21.12.2017
+    
+    Adaugare exercitiu "bete"
+
+[33mcommit b85d0e0b7fa22a5a94972190a4c6e311ab68e1ef[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Mon Dec 11 11:58:30 2017 +0200
+
+    Rectificare tema 21.12.2017
+
+[33mcommit 735fdfd07e614d34f98e99d07ac86e037d5922c2[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Mon Dec 11 10:07:59 2017 +0200
+
+    Adaugare tema 21.12.2017
+    
+    Craciun fericit si an nou bun tuturor! :)
+
+[33mcommit d50c88c88230cdb5dbcaf414f28ed37a5ae63785[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Sat Dec 9 11:01:57 2017 +0200
+
+    Adaugare exercitii infoarena si rectificare la CMake
+
+[33mcommit d1f463e2231bfb28538768570a89345ef4a05f02[m
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Thu Dec 7 10:34:20 2017 +0200
+
+    Rectificare script testare
+
+[33mcommit 5b2c86b2971ed7a2413f56df39f3d2a7fe071574[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Thu Dec 7 09:46:01 2017 +0200
+
+    Adaugare sumtri1 si partitiinumar4
+
+[33mcommit 09fb8f78445e2649bbffb89c3f8d9f707b5cb65d[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Wed Dec 6 12:26:24 2017 +0200
+
+    Adaugare sumtri
+
+[33mcommit 6029303331804444e5bd7a1c23f4a36b7090f4f3[m
+Merge: 09451ce f941548
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Mon Dec 4 18:44:52 2017 +0200
+
+    Merge pull request #18 from StormFireFox1/implementare-cmake-travis
+    
+    Implementare compilare CMake si Travis CI
+
+[33mcommit f941548a48822482fefb8647e5b18170f2d4b8d7[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Mon Dec 4 18:34:42 2017 +0200
+
+    Rectificare branch
+
+[33mcommit 1cf8239670cddc6f8b6bb631d3403746d0a4e03b[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Mon Dec 4 18:28:47 2017 +0200
+
+    Rectificare integrare Travis
+
+[33mcommit 1a2201c32162f974ae547fadb98291a918563f23[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Mon Dec 4 18:25:36 2017 +0200
+
+    Eliminare header precompilat
+
+[33mcommit f949b212e87c69b11dc29153c4d90aa721963121[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Mon Dec 4 18:17:25 2017 +0200
+
+    Rezolvare typo 2.0
+
+[33mcommit d90c29f1b70f0a0a0ebcc38aef772f133b87d42a[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Mon Dec 4 18:09:59 2017 +0200
+
+    Rezolvare typo
+
+[33mcommit 5b95ff65ab679aba40c1b3f73ee5653956bd5ad5[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Mon Dec 4 18:07:12 2017 +0200
+
+    Implementare Travis CI
+
+[33mcommit 6a809566f35d1fa457dda1fe87562d151387a691[m
+Author: StormFireFox1 <matei@gardus.eu>
+Date:   Mon Dec 4 17:56:17 2017 +0200
+
+    Implementare CMake
+
+[33mcommit 09451ce65d8974ad88a9cb9438c45b17e114622c[m
+Author: Elev <matei@gardus.eu>
+Date:   Thu Nov 23 14:09:27 2017 +0200
+
+    Adaugare script testare Windows
+    
+    Signed-off-by: Elev <matei@gardus.eu>
+
+[33mcommit a4321bc95cf11339585fe0925840c1ebe8177dd9[m
+Author: Elev <matei@gardus.eu>
+Date:   Thu Nov 23 12:51:16 2017 +0200
+
+    Rectificare README pentru script Windows
+    
+    Signed-off-by: Elev <matei@gardus.eu>
+
+[33mcommit 6120eafc5ac64c3df33bd47bb0e5c8e6097d1040[m
+Author: Elev <matei@gardus.eu>
+Date:   Thu Nov 23 12:29:59 2017 +0200
+
+    Stergere fisier inutil
+    
+    Signed-off-by: Elev <matei@gardus.eu>
+
+[33mcommit 1e6d886c7613f601e1de94dde53d3f81c0156370[m
+Merge: 9e10dc6 205d7d7
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Fri Nov 17 23:39:58 2017 +0200
+
+    Merge pull request #13 from StormFireFox1/Andrei-Letinu
+
+[33mcommit 205d7d7556f3e93c3daf73958b27483fb0c8a814[m
+Merge: ddcf5d2 9e10dc6
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Fri Nov 17 23:39:34 2017 +0200
+
+    Merge branch 'master' into Andrei-Letinu
+
+[33mcommit ddcf5d25e08baff24cef0d0812dc3ae72e572f66[m
+Author: Leti <darksiders1719@gmail.com>
+Date:   Fri Nov 17 20:41:49 2017 +0200
+
+    Stergere dublura
+
+[33mcommit 90c6ce17167c16672c9c0cad9b55f9ff0dbbba68[m
+Author: Leti <darksiders1719@gmail.com>
+Date:   Fri Nov 17 20:32:49 2017 +0200
+
+    Adaugare exercitii tema 16.11.2017
+    
+    Nu include problemele aranjamente si combinari (sunt deja pe github)
+
+[33mcommit 9e10dc6d605eca0843dc02cb99615fbfda4eb58a[m
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Thu Nov 16 11:22:43 2017 +0200
+
+    Rectificare variabila si stergere zip
+
+[33mcommit e0699850941d117c35ac3717f53e0ee93b382ef6[m
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Thu Nov 16 11:19:19 2017 +0200
+
+    Stergere ID din iesire script testare
+
+[33mcommit f7dc1922f443da175dc84b769d54f97be6be7aaf[m
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Thu Nov 16 10:55:59 2017 +0200
+
+    Rectificare script testare
+
+[33mcommit 5f2aaeebf74174b5a685ced811b7b5531c276310[m
+Merge: d2e2dd4 a467475
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Mon Nov 13 21:31:16 2017 +0200
+
+    Merge pull request #17 from StormFireFox1/Gardus-Matei
+
+[33mcommit a46747506605efa35fc0bbc2991a9e23ce28206c[m
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Mon Nov 13 21:30:31 2017 +0200
+
+    Cel mai mic typo la README din existenta
+
+[33mcommit c08d538978a0196d05b24533947cc246a56e4289[m
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Mon Nov 13 21:29:18 2017 +0200
+
+    Rectificare README pentru noul script
+
+[33mcommit 84c054e247eca1c0e16fc4e645b254b27e6af9d6[m
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Mon Nov 13 21:22:32 2017 +0200
+
+    Rectificare script probleme test
+
+[33mcommit d2e2dd42ae0cec6a442840bc1a4718e7b294385d[m
+Merge: 63d028a 158f73c
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Mon Nov 13 20:57:17 2017 +0200
+
+    Merge pull request #16 from StormFireFox1/Gardus-Matei
+
+[33mcommit 158f73c68f2d38e52cb2bf6586317f6937f105db[m
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Mon Nov 13 20:55:00 2017 +0200
+
+    Stergere probleme cu formatare proasta
+
+[33mcommit 28753462aae6deffa38204412d95815242213136[m
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Mon Nov 13 20:53:48 2017 +0200
+
+    Adaugare script probleme pentru test
+
+[33mcommit 2ddf845d5a1c6c6cb01e344f411f902e33927a38[m
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Mon Nov 13 12:38:59 2017 +0200
+
+    Adaugare tema 16.11.2017
+
+[33mcommit 7ec05dd5aad0cf55b0d1765c98ca19c1ba59ae00[m
+Author: Leti <darksiders1719@gmail.com>
+Date:   Wed Nov 8 19:03:06 2017 +0200
+
+    Redenumire surse
+
+[33mcommit fb52f983a61128bc9437ce9c1a69b025af0ac7f1[m
+Author: Leti <darksiders1719@gmail.com>
+Date:   Wed Nov 8 18:58:48 2017 +0200
+
+    Adaugare summax - tema back 26.10
+
+[33mcommit f89e82244d0c3812e87bf1af832d980a17625707[m
+Merge: 6dde4e3 aa44182
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Thu Oct 26 12:04:03 2017 +0300
+
+    Merge remote-tracking branch 'origin/Gardus-Matei' into Gardus-Matei
+
+[33mcommit 6dde4e3e1df1f7ba82a86afd8d15593012891048[m
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Thu Oct 26 12:03:04 2017 +0300
+
+    Adaugare tema 9.11.2017
+    
+    # Surse:
+    -cifregen
+    -cifregen1
+    -cifregen2
+    -cifregen3
+    -cifregen4
+    -permutari1
+    -shuffle
+    
+    permpf si siruri au fost facute, iar summax ia 60p.
+
+[33mcommit aa4418233bc874dd542f7b8be1227a32f5de2f9c[m
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Thu Oct 26 12:03:04 2017 +0300
+
+    Adaugare tema 26.10.2017
+    
+    # Surse:
+    -cifregen
+    -cifregen1
+    -cifregen2
+    -cifregen3
+    -cifregen4
+    -permutari1
+    -shuffle
+    
+    permpf si siruri au fost facute, iar summax ia 60p.
+
+[33mcommit 005c03ef2dd63692d6cf85c410b38ef6f23fb3a8[m
+Author: Leti <darksiders1719@gmail.com>
+Date:   Tue Oct 24 21:09:52 2017 +0300
+
+    Adaugare tema 26.10.2017
+
+[33mcommit a0607eb780ba9c445a94eaf0709d6f3a66ab6de1[m
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Mon Oct 23 12:20:19 2017 +0300
+
+    Adaugare exercitii 23.10.2017 2.0
+
+[33mcommit 0abff0acaa0f1ac469dcec3fd2c6d67e84590942[m
+Merge: cce09a2 0b8a9fe
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Mon Oct 23 10:01:15 2017 +0300
+
+    Merge remote-tracking branch 'origin/Gardus-Matei' into Gardus-Matei
+
+[33mcommit cce09a298c01db6b786b9e70be136697480bcec8[m
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Mon Oct 23 10:01:03 2017 +0300
+
+    Adaugare exercitii 23.10.2017
+    
+    permpf
+
+[33mcommit 0051f46e9f722ca7f8ac86a0999a2b894b6dc79d[m
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Sun Oct 22 19:48:22 2017 +0300
+
+    Adaugare tema 26.10.2017
+
+[33mcommit 0b8a9fea4f8cfbbc6927e56442efc902aa3fd982[m
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Sun Oct 22 19:48:22 2017 +0300
+
+    Adaugare tema 26.10.2017
+
+[33mcommit 101e9222f1858636b8d233dfec41ddb631944564[m
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Thu Oct 19 13:11:19 2017 +0300
+
+    Adaugare exercitii 19.10.2017
+
+[33mcommit 63d028a3a26fb40e53b95941bcdcecee9b739c25[m
+Merge: f0b9aae 940eafd
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Thu Oct 19 09:37:44 2017 +0300
+
+    Merge pull request #15 from StormFireFox1/Gardus-Matei
+
+[33mcommit 940eafddd705c519a16df96a6868373d5bae3ce1[m
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Thu Oct 19 09:35:00 2017 +0300
+
+    Adaugare tema stiva 19.10.2017
+
+[33mcommit cf249fb4eb8a4a720163cafb522e5fe3e74b82a3[m
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Thu Oct 12 20:44:45 2017 +0300
+
+    Adaugare tema 12.10.2017
+    
+    In plus sunt cerc3, kMax si spectacole.
+
+[33mcommit 69d1695557ebda66c9ad1c5c5733048927cce61c[m
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Wed Oct 11 18:32:42 2017 +0300
+
+    Adaugare exercitiu 11.10.2017
+    
+    Voiaj
+
+[33mcommit 11590b19cc52f6dd31982f491409f2adbc152b64[m
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Mon Oct 9 12:22:06 2017 +0300
+
+    Adaugare exercitii 9.10.2017 (100p)
+    
+    pachete si strazi
+
+[33mcommit f0b9aae89499bf89e710357f25e6bff243ea009c[m
+Merge: 6db230d 82b311b
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Wed Oct 4 21:13:58 2017 +0300
+
+    Merge pull request #14 from StormFireFox1/Gardus-Matei
+
+[33mcommit 82b311bbec64bc3f56d434d14797037e48327df1[m
+Author: Unknown <matei.gardus@gmail.com>
+Date:   Wed Oct 4 20:08:11 2017 +0300
+
+    Adaugare surse exercitii 10.4.2017
+    
+    Reactivi si rucsac (100p)
+
+[33mcommit 1d0749e6910241c884f8ec9f8b2cc010780c72f5[m
+Author: Leti <darksiders1719@gmail.com>
+Date:   Wed Oct 4 16:52:27 2017 +0300
+
+    Adaugare sursa rucsac 100p (04.10.2017)
+
+[33mcommit ccaa88589fc1bbd90329966069a56de84a58e6c5[m
+Author: Leti <darksiders1719@gmail.com>
+Date:   Tue Oct 3 22:22:23 2017 +0300
+
+    Adaugare sursa subsecv 100p
+
+[33mcommit 6db230da123fbe0f560885e329696ab497318892[m
+Merge: 4566281 a05a1f1
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Mon Oct 2 10:29:48 2017 +0300
+
+    Merge pull request #12 from StormFireFox1/Gardus-Matei
+
+[33mcommit a05a1f19e8ad1ab4d3bcbd44b6f02a5b36c2d7eb[m
+Author: Unknown <matei.gardus@gmail.com>
+Date:   Mon Oct 2 10:28:01 2017 +0300
+
+    Adaugare exercitii 2.10.2017 si subsecv (100p)
+    
+    Citeste comentariile la sursa pentru probleme.
+
+[33mcommit 45662811ce3ae442a260f1d1c704ee17215e3212[m
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Fri Sep 29 20:57:46 2017 +0300
+
+    Rectificare structura
+
+[33mcommit 79acf971508bffa6688e862ec178d0c34f256005[m
+Author: sabinanton <32135204+sabinanton@users.noreply.github.com>
+Date:   Fri Sep 29 20:54:53 2017 +0300
+
+    Create subsecv
+    
+    Solutie de 100p, foloseste un singur vector.
+
+[33mcommit f5bdbabc299bc41c608f0ed6dd11530b21c5bf64[m
+Merge: d8e98df 03422d8
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Thu Sep 28 19:42:07 2017 +0300
+
+    Merge pull request #11 from StormFireFox1/Letinu-Andrei
+    
+    Bravo, @darksiders1719!
+
+[33mcommit 3b4b33d412c51fe7fac3e41374925a1343becb54[m
+Author: Unknown <matei.gardus@gmail.com>
+Date:   Thu Sep 28 19:37:22 2017 +0300
+
+    Adaugare sursa subsecv (80p)
+
+[33mcommit d8e98dfdafa8ae05f65ec4a76e2f034e68061467[m
+Merge: 55ce6a2 8c5c81c
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Thu Sep 28 19:34:10 2017 +0300
+
+    Merge pull request #10 from StormFireFox1/Gardus-Matei
+
+[33mcommit 8c5c81cd7bf5ad9f6ee0a8a38aa2932b30ff6911[m
+Author: Unknown <matei.gardus@gmail.com>
+Date:   Thu Sep 28 19:32:08 2017 +0300
+
+    Adaugare tema 5 octombrie 2017
+
+[33mcommit 03422d8dbc6282ce86d69910732e5612249c33aa[m
+Author: Leti <darksiders1719@gmail.com>
+Date:   Thu Sep 28 19:22:48 2017 +0300
+
+    Adaugare sursa tema 28 septembrie
+
+[33mcommit 55ce6a2dbe6bff7371cdd2f50bf62f2d990f77de[m
+Merge: 2b058f8 9242a1a
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Thu Sep 28 19:22:02 2017 +0300
+
+    Merge pull request #9 from StormFireFox1/Goidea-Andreea
+
+[33mcommit 2b058f8f70b89d2a7f454f4eea094eb44a71e426[m
+Merge: 5452cf9 31f7fa4
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Thu Sep 28 19:20:01 2017 +0300
+
+    Merge pull request #8 from StormFireFox1/Gardus-Matei
+
+[33mcommit 4b2b0962c376cd417040086958dbeb2ac4a5edd9[m
+Author: Leti <darksiders1719@gmail.com>
+Date:   Thu Sep 28 19:01:29 2017 +0300
+
+    Stergere dublura masini
+
+[33mcommit 43a2a8bcba3cd8e98f83e01a19d10dd82e414827[m
+Author: Leti <darksiders1719@gmail.com>
+Date:   Thu Sep 28 18:46:47 2017 +0300
+
+    Adaugare sursa proiecte(100p)
+
+[33mcommit 7757f7b8bcdcf4a78c862c0e342047e4f3c64846[m
+Author: Leti <darksiders1719@gmail.com>
+Date:   Thu Sep 28 18:45:12 2017 +0300
+
+    Adaugare sursa masini (100p)
+
+[33mcommit f52e5b8452754d6ca0cc8b90d5d4f9ca961b57e1[m
+Author: Unknown <matei.gardus@gmail.com>
+Date:   Thu Sep 28 13:34:35 2017 +0300
+
+    Adaugare flici
+
+[33mcommit 31f7fa4069dd5c69357fc1b9cfbc75f1938b6fe5[m
+Author: Unknown <matei.gardus@gmail.com>
+Date:   Mon Sep 25 11:52:45 2017 +0300
+
+    Adaugare surse exercitii 25.9.2017
+
+[33mcommit 369ef75e00f494187c8d6822ef01cd0def21262b[m
+Author: Unknown <matei.gardus@gmail.com>
+Date:   Mon Sep 25 10:03:03 2017 +0300
+
+    Adaugare surse exercitii 25.9.2017
+
+[33mcommit 9242a1aa96ae1522ead56c251ad0875e417125ff[m
+Author: Unknown <matei.gardus@gmail.com>
+Date:   Mon Sep 25 10:01:46 2017 +0300
+
+    Adaugare surse exercitii 25.9.2017
+
+[33mcommit 5452cf9abf26cb76f3435e75752a43f7be6dbd70[m
+Author: Matei Gardus <matei.gardus@gmail.com>
+Date:   Thu Sep 21 21:41:53 2017 +0300
+
+    Reorganizare surse
+    
+    Versiunea lui @alexghergh si @alexmihax la diofantic este pastrat @ diofantic/main2.0.cpp
+
+[33mcommit 608cfb33ec161d9b5502794dba13023824be1d3f[m
+Author: Matei Gardus <matei.gardus@gmail.com>
+Date:   Thu Sep 21 21:33:29 2017 +0300
+
+    Stergere fisiere interzise
+
+[33mcommit 90de92376de1b0e65fb2170597a70cf43343cf62[m
+Merge: e289087 7300f15
+Author: alexghergh <32064177+alexghergh@users.noreply.github.com>
+Date:   Thu Sep 21 21:20:36 2017 +0300
+
+    Merge pull request #6 from StormFireFox1/Pasca-Mihai
+    
+    Pasca mihai
+
+[33mcommit 7300f15602c9c9722707a571da1c62fb331e880d[m
+Author: Alexmihax <32059336+Alexmihax@users.noreply.github.com>
+Date:   Thu Sep 21 21:03:54 2017 +0300
+
+    Update diofantic.cpp
+
+[33mcommit 182159fe1c099c2d4c1060ef8c6ac9eed1a00588[m
+Author: AlexMihax <mihaipasca2204@yahoo.com>
+Date:   Thu Sep 21 20:59:45 2017 +0300
+
+    Diofantic#2144(Finally)
+
+[33mcommit 9d16da6bbb313e58104a056444d890b39bce1d6b[m
+Author: AlexMihax <mihaipasca2204@yahoo.com>
+Date:   Thu Sep 21 20:08:28 2017 +0300
+
+    Cuvant (#1456)
+
+[33mcommit 24eb9afb4b4dc82f39db435ac215db0aea806271[m
+Author: AlexMihax <mihaipasca2204@yahoo.com>
+Date:   Thu Sep 21 20:01:12 2017 +0300
+
+    Au intrat de la Alex
+
+[33mcommit d78e04f94be6c3de8ecba93f703b761634757cb2[m
+Author: AlexMihax <mihaipasca2204@yahoo.com>
+Date:   Thu Sep 21 19:58:24 2017 +0300
+
+    test
+
+[33mcommit 80cac9f708568407617acf414c192f937d469dfc[m
+Author: Alex <gherghescu_alex1@yahoo.ro>
+Date:   Thu Sep 21 18:37:47 2017 +0300
+
+    Toate exercitiile tema 2 siruri caractere(100p 7/7)
+
+[33mcommit e2890874d0076f8320d480f192ab9ba7dabdd181[m
+Author: Alexmihax <32059336+Alexmihax@users.noreply.github.com>
+Date:   Thu Sep 21 17:48:49 2017 +0300
+
+    Add files via upload
+
+[33mcommit 5b5ee4653ee874c97dc609474ac72760841ec71d[m
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Thu Sep 21 17:48:24 2017 +0300
+
+    Rectificare sursa caractere (100p)
+
+[33mcommit ffd1df27156bb11c817213855dd06d5d11367044[m
+Author: Alexmihax <32059336+Alexmihax@users.noreply.github.com>
+Date:   Thu Sep 21 17:40:27 2017 +0300
+
+    Add files via upload
+
+[33mcommit 06612791141a61b1c25d36a79fe71ffebac10431[m
+Author: Storm_FireFox1 <matei.gardus@gmail.com>
+Date:   Thu Sep 21 14:19:40 2017 +0300
+
+    Adaugare sursa VerifEgaleDivImp (100p) [DIRECT]
+
+[33mcommit 737eaa58549b6d93d9eaf46f0eb31730333eef05[m[33m ([m[1;33mtag: v1.1[m[33m)[m
+Merge: e48922c c791a79
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Thu Sep 21 14:03:11 2017 +0300
+
+    Merge pull request #4 from StormFireFox1/Gardus-Matei
+
+[33mcommit c791a79ac2bc7e83ed822a949de820e70ad2d5fc[m
+Author: Storm_FireFox1 <matei.gardus@gmail.com>
+Date:   Thu Sep 21 13:58:35 2017 +0300
+
+    Adaugare tema 28 septembrie
+
+[33mcommit e48922c82742a6b47b32ec9838ba480469e1ea47[m
+Merge: 9ba32bc 5f66f98
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Thu Sep 21 12:06:34 2017 +0300
+
+    Merge pull request #3 from StormFireFox1/Gardus-Matei
+
+[33mcommit 5f66f98275f478f81f169be6d1a66452e65e9768[m
+Author: Storm_FireFox1 <matei.gardus@gmail.com>
+Date:   Thu Sep 21 12:05:52 2017 +0300
+
+    Stergere sursa diofantic (0p)
+
+[33mcommit 9ba32bcbcfa89981ebe7773decf03dfa22fc6dd8[m
+Merge: f654b58 9ac8b4e
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Thu Sep 21 12:01:26 2017 +0300
+
+    Merge pull request #2 from StormFireFox1/Goidea-Andreea
+
+[33mcommit caddedbacca284ba94fb43788fbd00a2e884a100[m
+Author: Storm_FireFox1 <matei.gardus@gmail.com>
+Date:   Thu Sep 21 11:58:54 2017 +0300
+
+    Adaugare structura infoarena si sursa cautbin (100p)
+    
+    NOTE: Orice problema rezolvata pe http://www.infoarena.ro/ se va pune aici
+    Problemele pe site sunt: http://www.infoarena.ro/problema/[NUME PROBLEMA]
+
+[33mcommit b0c8c411a3084b88ecabfb739451937eed33731c[m
+Author: Storm_FireFox1 <matei.gardus@gmail.com>
+Date:   Thu Sep 21 11:54:15 2017 +0300
+
+    Rectificare sursa diofantic 2.0 (0p)
+
+[33mcommit 9ac8b4e00a30e86d40daee6bdf98fade44ed380e[m
+Author: arndreea <andreea.goidea@yahoo.com>
+Date:   Thu Sep 21 11:47:24 2017 +0300
+
+    Adaugare sursa diofantic (80p)
+    
+    Disclaimer:
+    "Nu stiu cum are 80, dar o pun sa fie de umplutura"
+
+[33mcommit 50c49ef78474ea067197f18c6682858693448927[m
+Author: Storm_FireFox1 <matei.gardus@gmail.com>
+Date:   Thu Sep 21 11:33:30 2017 +0300
+
+    Rectificare sursa diofantic (0p)
+
+[33mcommit 67ac75c46ea4a1a1a151cdf5a32e3991395f527c[m
+Author: Storm_FireFox1 <matei.gardus@gmail.com>
+Date:   Thu Sep 21 11:25:59 2017 +0300
+
+    Adaugare sursa diofantic (0p)
+
+[33mcommit f654b58d9d1627aaf6905b0c9ae2a4a3bbd8d9e0[m
+Merge: 446ffb6 f323192
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Wed Sep 20 17:05:25 2017 +0300
+
+    Merge remote-tracking branch origin/Gardus-Matei
+    
+    Merge tema info 20 septembrie
+
+[33mcommit f323192c11322334c14e9de3754fa3045d647f10[m
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Wed Sep 20 16:58:14 2017 +0300
+
+    Adăugare surse tema cu deadline 20 septembrie
+
+[33mcommit f977a995bc6c38fc107f31fcfe8f344b71c8b436[m
+Author: Storm_FireFox1 <matei.gardus@gmail.com>
+Date:   Wed Sep 20 10:56:54 2017 +0300
+
+    diofantic
+
+[33mcommit 446ffb6b0eb82691d4f7db19376c3b7e108f799f[m[33m ([m[1;33mtag: v1.0[m[33m)[m
+Author: Storm_FireFox1 <matei.gardus@gmail.com>
+Date:   Wed Sep 20 10:13:14 2017 +0300
+
+    cleanup crew
+
+[33mcommit e728f168a6d4390f7f77937bb4de020099da800c[m
+Merge: 7cd93e1 b82280f
+Author: Storm_FireFox1 <matei.gardus@gmail.com>
+Date:   Tue Sep 19 20:06:23 2017 +0300
+
+    Merge remote-tracking branch 'origin/Alex-Gherghescu'
+
+[33mcommit 7cd93e1963e41e9e51f331fa45e703fa5bcf5ca6[m
+Author: Alex <gherghescu_alex1@yahoo.ro>
+Date:   Mon Sep 18 20:50:39 2017 +0300
+
+    small changes
+
+[33mcommit b82280fb597112f2c5e0379379cdc6c71c7f4e09[m
+Author: Alex <gherghescu_alex1@yahoo.ro>
+Date:   Mon Sep 18 20:46:00 2017 +0300
+
+    .
+
+[33mcommit f924f91b8fdbdd60323bb0bcf3651bea5db55fce[m
+Author: Alex <gherghescu_alex1@yahoo.ro>
+Date:   Mon Sep 18 20:44:04 2017 +0300
+
+    .
+
+[33mcommit 90fded27b701b7e07d3fe58e09bebcbe159e9c03[m
+Author: Alex <gherghescu_alex1@yahoo.ro>
+Date:   Mon Sep 18 20:40:37 2017 +0300
+
+    0
+
+[33mcommit 5f27195c5fbfe7d63f34f11bfa4405067dd7fd66[m
+Author: Alex <gherghescu_alex1@yahoo.ro>
+Date:   Mon Sep 18 18:55:53 2017 +0300
+
+    small changes
+
+[33mcommit 3c53c662c23377216fa26b5dc265c13a7c0d487b[m
+Author: Alex <gherghescu_alex1@yahoo.ro>
+Date:   Mon Sep 18 17:39:16 2017 +0300
+
+    Initial commit
+
+[33mcommit 1a8fd660d849af935f1daba596a8c8fa5cafd44d[m
+Author: Alex <gherghescu_alex1@yahoo.ro>
+Date:   Mon Sep 18 17:33:24 2017 +0300
+
+    clean up crew
+
+[33mcommit 1f776311d1da83a327aa8e7d334435f5c7dae0fb[m
+Author: Alex <gherghescu_alex1@yahoo.ro>
+Date:   Mon Sep 18 17:24:38 2017 +0300
+
+    testing stuff
+
+[33mcommit 4eb5c08cf357eed29699d0121c92515529505c40[m
+Author: StormFireFox1 <matei.gardus@gmail.com>
+Date:   Mon Sep 18 11:57:29 2017 +0300
+
+    Initial commit
