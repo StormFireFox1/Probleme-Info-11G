@@ -6,8 +6,8 @@ $SecondID = Read-Host -Prompt 'Scrie repede numele celei de a doua probleme'
 
 $OriginalDirectory = $PWD
 
-$FOLDER_PROB1 = Get-ChildItem $OriginalDirectory $FirstID -Recurse -Directory
-$FOLDER_PROB2 = Get-ChildItem $OriginalDirectory $SecondID -Recurse -Directory
+$FOLDER_PROB1 = Get-ChildItem "$OriginalDirectory\Clasa_11" $FirstID -Recurse -Directory
+$FOLDER_PROB2 = Get-ChildItem "$OriginalDirectory\Clasa_11" $SecondID -Recurse -Directory
 
 Set-Location ~\Desktop
 

@@ -8,8 +8,8 @@ read -r ID_PROB1 ID_PROB2
 
 ORIGINAL_DIR=$(pwd)
 
-FOLDER_PROB1=$(find . -type d -name "$ID_PROB1")
-FOLDER_PROB2=$(find . -type d -name "$ID_PROB2")
+FOLDER_PROB1=$(find ./Clasa_11 -type d -name "$ID_PROB1")
+FOLDER_PROB2=$(find ./Clasa_11 -type d -name "$ID_PROB2")
 
 FOLDER_PROB1=${FOLDER_PROB1:2}
 FOLDER_PROB2=${FOLDER_PROB2:2}
