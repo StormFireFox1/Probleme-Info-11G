@@ -1,8 +1,9 @@
 [![Build Status](https://travis-ci.org/StormFireFox1/Probleme-Info-11G.svg?branch=master)](https://travis-ci.org/StormFireFox1/Probleme-Info-11G)
 
 # Probleme-Info-11G
-In acest repozitoriu vei gasi problemele la info.
+In acest repozitoriu vei gasi problemele la info pentru clasele a 11-a si a 12-a.
 Toate rezolvarile problemelor (100 de puncte) vor ajunge in master.
+De asemenea, vei gasi si diverse lectii, precum baze de date si de la CEX.
 
 # Instalare script testare
 
