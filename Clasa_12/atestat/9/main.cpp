@@ -10,7 +10,9 @@ int v[1001], n = 1;
 
 bool s1(int x)
 {
-	for (int i = 2; i * i <= n; i++) {
+	if (x == 3)
+		return true;
+	for (int i = 2; i * i <= x; i++) {
 		if (x % i == 0) {
 			return false;
 		}
@@ -20,17 +22,20 @@ bool s1(int x)
 
 void s2(int v[], int n)
 {
-	sort(v, v + n);
+	sort(v, v + n - 1);
 }
 
 int main()
 {
+	bool thereArePrime = 0;
 	while (fin >> v[n]) {
 		n++;		
 	}
+	n--;
 	s2(v, n);
 	for (int i = 1; i <= n; i++) {
 		if (s1(v[i])) {
+			thereArePrime = 1;
 			fout << v[i] << " ";
 			break;
 		}
@@ -38,9 +43,14 @@ int main()
 
 	for (int i = n; i >= 1; i--) {
 		if (s1(v[i])) {
+			thereArePrime = 1;
 			fout << v[i] << " ";
 			break;
 		}
+	}
+
+	if (!thereArePrime) {
+		fout << "NU EXISTA";
 	}
 
 	return 0;
