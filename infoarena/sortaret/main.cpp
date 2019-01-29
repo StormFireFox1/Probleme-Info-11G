@@ -2,19 +2,19 @@
 #include <fstream>
 #include <vector>	
 #include <queue>
+#define N 50001
+#define M 100001
 
 using namespace std;
 
 ifstream fin("sortaret.in");	
 ofstream fout("sortaret.out");
-	
-const int N = 50001, M = 100001;
 
-vector <int> a[N];
-
-int pred[N], stopol[N], nr;
-
-bool viz[N];
+int pred[N],       // lista de predecesori, fiecare nod ține aici tatăl său
+    stopol[N],     // lista simplă înlănțuită pentru sortare topologică
+    nr;            // numărul de elemente din lista "stopol"
+vector <int> a[N]; // lista de adiacență, fiecare nod ține în acest vector succesorii săi
+bool viz[N];       // vectorul de vizitare al fiecărui nod
 
 void dfs(int x)
 {	
