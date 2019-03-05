@@ -45,3 +45,4 @@ gen### C++ template
 
 ### CMake ###
 cmake-build-cache/
+build/
