@@ -6,4 +6,6 @@ set (CMAKE_CXX_STANDARD 14)
 project(Clasa_12)
 
 add_subdirectory("atestat")
+add_subdirectory("bac")
 add_subdirectory("nr_pal")
+add_subdirectory("subsecvente")
